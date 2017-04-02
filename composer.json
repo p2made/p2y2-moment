@@ -1,19 +1,10 @@
 {
 	"name": "p2made/yii2-p2y2-moment-timezone",
-	"description": "A bunch of CSS & JS resources wrapped as Yii 2 AssetBundles &/or Widgets.",
+	"description": "moment.js & moment-timezone.js as Yii2 assets",
 	"type": "yii2-extension",
 	"keywords": [
-		"yii2", "yii", "extension", "PHP",
-		"asset", "bundle", "widget",
-		"menu", "metisMenu",
-		"Bootstrap Social", "social",
-		"dataTables", "data", "tables",
-		"Flot", "Morris", "Morris.JS", "charts", "excanvas",
-		"raphael", "graphics", "ector", "ector graphics",
-		"SweetAlert", "alerts", "Holder.js", "placeholder", "placeholder-image",
-		"moment.js", "time", "moment", "timezone", "moment-timezone",
-		"FullCalendar", "calendar",
-		"html5shiv", "Respond.JS"
+		"yii2", "yii", "extension", "PHP", "asset", "bundle",
+		"moment.js", "time", "moment", "timezone", "moment-timezone"
 	],
 	"license": "MIT",
 	"authors": [
@@ -28,11 +19,12 @@
 		"source": "https://github.com/p2made/yii2-p2y2-timezones"
 	},
 
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"minimum-stability": "dev",
 
 	"require": {
-		"yiisoft/yii2": "^2.0"
+		"yiisoft/yii2": "^2.0",
+		"p2made/yii2-p2y2-base": "^0.1"
 	},
 	"require-dev": {
 	},

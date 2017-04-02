@@ -1,14 +1,7 @@
-P2Y2 Timezones v0.0.1
+P2Y2 Timezones v0.1.0
 ==============
 
-¡¡ IMPORTANT !!
-===============
-
-Version 2.0.0 of all my Yii2 add-ons marks a breaking change where I've shortened my namespaces.
-`p2made\rest\of\namespace` is now `p2m\rest\of\namespace`.
-
-Highlights
-----------
+moment.js & moment-timezone.js as Yii2 assets
 
 Installation
 ------------
@@ -37,6 +30,19 @@ to the requires section of your `composer.json` file & P2Y2 Timezones will be in
 And then...
 -----------
 
+Register either of the assets with...
+
+```
+	p2m\assets\MomentAsset::register($this);
+	p2m\assets\MomentTimezoneAsset::register($this);
+```
+
+Declare them as dependancies with...
+
+```
+	p2m\assets\MomentAsset::register($this);
+	p2m\assets\MomentTimezoneAsset::register($this);
+```
 
 P2Y2 Timezones gives you the option of loading assets from the official CDNs. Just put this into `common/config/params.php`...
 
@@ -49,7 +55,6 @@ P2Y2 Timezones gives you the option of loading assets from the official CDNs. Ju
 When things are set up to your liking, register the `P2CoreLoaderAsset` with...
 
 ```
-	p2m\assets\P2CoreAsset::register($this);
 ```
 
 ...&  you get
