@@ -1,4 +1,4 @@
-P2Y2 Timezones v0.1.0
+P2Y2 Timezones v0.1.1
 ==============
 
 moment.js & moment-timezone.js as Yii2 assets
