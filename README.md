@@ -1,4 +1,4 @@
-P2Y2 Moment Timezone v0.1.1
+P2Y2 Moment Timezone v1.0.0
 ====================
 
 moment.js & moment-timezone.js as Yii2 assets
@@ -44,28 +44,3 @@ Declare them as dependancies with...
 	p2m\assets\MomentTimezoneAsset::register($this);
 ```
 
-P2Y2 Timezones gives you the option of loading assets from the official CDNs. Just put this into `common/config/params.php`...
-
-```
-	'p2made' => [
-		'useStatic' => true, // false or not set to use published assets
-	],
-```
-
-When things are set up to your liking, register the `P2CoreLoaderAsset` with...
-
-```
-```
-
-...&  you get
-* `yii\web\YiiAsset`, followed by
-* `Jquery` (as `p2m\assets\JqueryAsset`),
-* `Jui` (as `p2m\assets\JuiAsset`),
-* `Bootstrap` (as `p2m\assets\BootstrapAsset`), &
-* `Font Awesome` (as `p2m\assets\FontAwesomeAsset`)
-
-nicely loaded in one line.
-
-
----
-[![Dependency Status](https://www.versioneye.com/user/projects/56de5856df573d00352c66c0/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56de5856df573d00352c66c0)
