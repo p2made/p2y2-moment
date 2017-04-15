@@ -24,7 +24,7 @@
 
 namespace p2m\assets\locale;
 
-class LoAsset extends \p2m\assets\base\P2MomentTimezoneAssetBase
+class LoAsset extends \p2m\assets\base\P2MomentAssetBase
 {
 	protected $version = $this->momentVersion;
 

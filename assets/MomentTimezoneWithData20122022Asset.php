@@ -24,7 +24,7 @@
 
 namespace p2m\assets;
 
-class MomentTimezoneWithData20122022Asset extends \p2m\assets\base\P2MomentTimezoneAssetBase
+class MomentTimezoneWithData20122022Asset extends \p2m\assets\base\P2MomentAssetBase
 {
 	protected $version = $this->momentTimezoneVersion;
 

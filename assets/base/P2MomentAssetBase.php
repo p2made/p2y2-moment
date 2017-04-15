@@ -1,6 +1,6 @@
 <?php
 /**
- * P2MomentTimezoneAssetBase.php
+ * P2MomentAssetBase.php
  *
  * @copyright Copyright &copy; Pedro Plowman, 2017
  * @author Pedro Plowman
@@ -8,7 +8,7 @@
  * @license MIT
  *
  * @package p2made/yii2-p2y2-moment-timezone
- * @class \p2m\assets\base\P2MomentTimezoneAssetBase
+ * @class \p2m\assets\base\P2MomentAssetBase
  */
 
 /**
@@ -23,7 +23,7 @@
 
 namespace p2m\assets\base;
 
-class P2MomentTimezoneAssetBase extends \p2m\base\assets\P2AssetBase
+class P2MomentAssetBase extends \p2m\base\assets\P2AssetBase
 {
 	/*
 	 * @var string
