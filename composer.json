@@ -1,5 +1,5 @@
 {
-	"name": "p2made/yii2-p2y2-moment-timezone",
+	"name": "p2made/yii2-p2y2-moment",
 	"description": "moment.js & moment-timezone.js as Yii2 assets",
 	"type": "yii2-extension",
 	"keywords": [
