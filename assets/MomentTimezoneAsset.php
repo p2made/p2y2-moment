@@ -24,9 +24,9 @@
 
 namespace p2m\assets;
 
-class MomentTimezoneAsset extends \p2m\assets\P2MomentTimezoneAssetBase
+class MomentTimezoneAsset extends \p2m\assets\base\P2MomentTimezoneAssetBase
 {
-	protected $version = '0.5.11';
+	protected $version = $this->momentTimezoneVersion;
 
 	private $resourceData = array(
 		'published' => [
