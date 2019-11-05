@@ -1,6 +1,10 @@
 P2Y2 Moment v2.0.0
 ===========
 
+**DEPRECATED!**
+
+I am merging `yii2-p2y2-moment` into `yii2-p2y2-things`.
+
 moment.js & moment-timezone.js as Yii2 assets
 
 I've made the huge leap to version 2.0.0 because this release has assets for *all* of the moment & moment-timezone assets. That includes every locale asset, & all the variants of moment-timezone.
