@@ -1,13 +1,9 @@
 P2Y2 Moment v2.0.0
 ===========
 
--- -- ^ -- -- ^ -- -- ^ -- -- ^ -- -- ^ -- --
-
 **DEPRECATED!**
 
 I am merging `yii2-p2y2-moment` into [`yii2-p2y2-things`](https://github.com/p2made/yii2-p2y2-things).
-
--- -- ^ -- -- ^ -- -- ^ -- -- ^ -- -- ^ -- --
 
 moment.js & moment-timezone.js as Yii2 assets
 
