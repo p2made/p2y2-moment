@@ -25,6 +25,7 @@
 
 	"require": {
 		"p2made/yii2-p2y2-base": "~4.0"
+
 	},
 	"require-dev": {
 	},
