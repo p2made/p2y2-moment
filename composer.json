@@ -1,5 +1,5 @@
 {
-	"name": "p2made/yii2-p2y2-moment",
+	"name": "p2made/p2y2-moment",
 	"description": "moment.js & moment-timezone.js as Yii2 assets",
 	"type": "yii2-extension",
 	"keywords": [
@@ -19,12 +19,11 @@
 		"source": "https://github.com/p2made/yii2-p2y2-timezones"
 	},
 
-	"version": "4.0.0-alpha",
-	"minimum-stability": "dev",
+	"minimum-stability": "stable",
 	"prefer-stable" : true,
 
 	"require": {
-		"p2made/yii2-p2y2-base": "~4.0"
+		"p2made/yii2-p2y2-base": "^5.0"
 	},
 	"require-dev": {
 	},

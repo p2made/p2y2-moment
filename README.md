@@ -1,36 +1,39 @@
-P2Y2 Moment v2.0.0
-===========
+# P2Y2 Moment 2.0.0
 
-moment.js & moment-timezone.js as Yii2 assets
+`moment.js` &amp; `moment-timezone.js` as Yii2 assets.
 
-I've made the huge leap to version 2.0.0 because this release has assets for *all* of the moment & moment-timezone assets. That includes every locale asset, & all the variants of moment-timezone.
+---
+## ¡DEPRECATION!
 
-Installation
-------------
+I will be deprecating P2Y2 Moment in favour of a package based on [Luxon](https://moment.github.io/luxon/#/). The only future updates to P2Y2 Moment will be updating the versions of the underlying [Moment](https://momentjs.com/) & [Moment Timezone](https://momentjs.com/timezone/) Javascripts.
 
-The preferred way to install P2Y2 Timezones is through [composer](http://getcomposer.org/download/).
+---
+
+## Installation
+
+The preferred way to install P2Y2 Moment is through [composer](http://getcomposer.org/download/).
+
 Depending on your composer installation, run *one* of the following commands:
 
 ```
-	composer require p2made/yii2-p2y2-moment "^2.0"
+	composer require p2made/p2y2-moment "^2.0"
 ```
 
 or
 
 ```
-	php composer.phar require p2made/yii2-p2y2-moment "^2.0"
+	php composer.phar require p2made/p2y2-moment "^2.0"
 ```
 
 Alternatively add:
 
 ```
-	"p2made/yii2-p2y2-moment": "^2.0"
+	"p2made/p2y2-moment": "^2.0"
 ```
 
 to the requires section of your `composer.json` file & P2Y2 Timezones will be installed next time you run `composer update`.
 
-And then...
------------
+## And then...
 
 Register any of the primary assets with...
 
