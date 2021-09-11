@@ -15,15 +15,15 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/p2made/yii2-p2y2-timezones/issues?state=open",
-		"source": "https://github.com/p2made/yii2-p2y2-timezones"
+		"issues": "https://github.com/p2made/p2y2-timezones/issues?state=open",
+		"source": "https://github.com/p2made/p2y2-timezones"
 	},
 
 	"minimum-stability": "stable",
 	"prefer-stable" : true,
 
 	"require": {
-		"p2made/yii2-p2y2-base": "dev-5.0.0-dev"
+		"p2made/p2y2-base": "dev-5.0.0-dev"
 	},
 	"require-dev": {
 	},
